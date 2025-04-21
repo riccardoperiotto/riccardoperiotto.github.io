@@ -3,7 +3,7 @@
 
 \documentclass[11 pt,oneside,a4paper,titlepage]{article}
 \usepackage{preamble}
-\graphicspath{{PIC/}}
+\graphicspath{{./images/}} % path to the images
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
@@ -23,7 +23,7 @@
             minimum size=\cvPictureWidth,
             path picture={
             \node at (path picture bounding box.center){
-             \includegraphics[width=\cvPictureWidth]{PIC/profile_stockholm.png}
+             \includegraphics[width=\cvPictureWidth]{profile_stockholm.png}
              };
              }]
             {};
@@ -33,9 +33,8 @@
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % Profile section
         \ruleline{\textbf{About me}}
-        % Guided by my passion for studying and technology, I approached the world of ICT in high school and delved into the subject until I graduated in Trento. Between my bachelor’s and master’s degrees, I worked in the field to understand what my passion really was. I am now in the final year of my master’s degree in autonomous systems and my main goal is to develop software for robots. Industrial robotics, control, and deep learning are the subjects I prefer and I am ready to apply them to my next challenge!
-        % Driven by my passion for learning and technology, I approached the ICT world during high school and delved into the subject until I graduated in Computer Science. Between my bachelor's and master's degrees, I worked in the field for a year to better understand which specialization was the most suitable for me. I have now completed my master's degree in Autonomous Systems, and I know that my primary goal is to develop software solutions for robots, as this will allow me to use the wide range of knowledge I've acquired throughout my education. Robotics, control, and deep learning are the subjects I prefer, and I am eager to apply them to my next challenge!
         Driven by my passion for learning and technology, I embraced the ICT world in high school and delved into the subject until I got my bachelor's degree in Computer Science. After that, I worked in the field for one year and finally graduated in Autonomous Systems from a double degree program two years later. Since then, I have been working as a Software Engineer for robotics in Munich, where I contribute to simplifying the application of AI-driven solutions to industrial automation, particularly robotics.
+
         \vspace*{0.18cm}
 
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -86,9 +85,9 @@
         row sep=5pt] (contact) {
         \node{\flag{italy.png}};
         & \node{Italian - Native Language};\\
-        \node{\flag{english.png}};
+        \node{\flag{england.png}};
         & \node{English - Professional Knowledge};\\
-        \node{\flag{german.png}};
+        \node{\flag{germany.png}};
         & \node{German - Basic Knowledge};\\
         };
         \end{tikzpicture} 
@@ -99,7 +98,7 @@
         % Programming Languages 
         \ruleline{\textbf{Programming languages}}
         \begin{center}
-            \cvtag{C\#}\cvtag{C++}\cvtag{C}\cvtag{Python}\cvtag{Javascript}\cvtag{Maple}\cvtag{MATLAB}\cvtag{R}\cvtag{Java}
+            \cvtag{C}\cvtag{C\#}\cvtag{C++}\cvtag{Java}\cvtag{Javascript}\cvtag{Maple}\cvtag{MATLAB}\cvtag{Python}\cvtag{R}
         \end{center}
         
         \vspace*{0.12cm}
@@ -107,7 +106,7 @@
         % Professional skills 
         \ruleline{\textbf{Hard skills}}
         \begin{center}
-            \cvtag{Automatic Control}\cvtag{Software Engineering}\cvtag{Robotics}\cvtag{Mechatronics}\cvtag{AI}\cvtag{ML}\cvtag{Deep Learning}\cvtag{Algorithms}\cvtag{Data Structures}\cvtag{Sensor Fusion}\cvtag{Applied Estimation}\cvtag{Dynamic Modeling}\cvtag{Full Stack Development}\cvtag{OOP}\cvtag{SCRUM}
+            \cvtag{Algorithms}\cvtag{Artificial Intelligence}\cvtag{Applied Estimation}\cvtag{Automatic Control}\cvtag{Data Structures}\cvtag{Databases \& SQL}\cvtag{Deep Learning}\cvtag{Dynamic Modeling}\cvtag{Full Stack Development}\cvtag{Machine Learning}\cvtag{Mechatronics}\cvtag{Object Oriented Programming}\cvtag{Robotics}\cvtag{Sensor Fusion}\cvtag{Software Engineering}
         \end{center}
     \end{minipage}} %
     \hfill 
@@ -120,57 +119,24 @@
 
         \vspace*{0.18cm}
             
-        % \MySection{sep 2021-\\ nov 2023}{}{Master's Degree}{EIT Digital - Autonomous Systems}{Europe}{}{European double degree program focusing on new technologies, entrepreneurship, and business.
-        % }
-        % kth.png
+        \MySectionNoPic{sep 2021-\\ nov 2023}{MSc Autonomous Systems}{EIT Digital}{Europe}{European double degree program focusing on new technologies, entrepreneurship, and business. \\
 
-        \MySection{sep 2021-\\ nov 2023}{}{MSc Autonomous Systems}{EIT Digital}{Europe}{}{European double degree program focusing on new technologies, entrepreneurship, and business. \\
+        First year: University of Trento (UniTN) \\
+        Second year: Royal Institute of Technology (KTH)}
 
-        First year: Royal Institute of Technology (KTH) \\
-        Summer school: Technical University of Munich (TUM) \\
-        Second year: University of Trento (UniTN)
-
-        % \textbf{Main subjects}: Robotics, Dynamic Modelling, Machine Learning, Deep Learning, System Control, Applied Estimation  
-        }
-        % kth.png
-        
         \vspace*{0.21cm}
             
-        % \MySection{sep 2022-\\ jul 2023}{}{Master's Degree (second year)}{KTH Royal Institute of Technology}{Stockholm, Sweden}{Autonomous Systems}{
-        % System Control, Applied Estimation, Deep Learning
-        % %Second year of the Master's degree in Autonomous System, EIT Digital program
-        % }
-        % % kth.png
-
-       % \MySection{jul 2022-\\aug 2022}{}{Summer School}{Technical University of Munich (TUM)}{Munich, Germany}{Industry 4.0}{
-       % %EIT Digital program Summer School. Topic: IoT platforms for Industry 4.0
-       % }
-        % tum.png
-        
-       % \vspace*{0.18cm}
-        
-        % \MySection{sep 2021-\\jul 2022}{}{Master's Degree (first year)}{University of Trento}{Trento, Italia}{Autonomous Systems}{
-        % Industrial Robotics, Machine Learning, Dynamic Modelling
-        % }
-        % unitn.jpg
-    
-            
-        % \vspace*{0.18cm}
-            
-        \MySection{sep 2017-\\jul 2020}{}{BSc Computer Science}{University of Trento}{Trento, Italy}{}{
-        \\ 
+        \MySectionNoPic{sep 2017-\\jul 2020}{BSc Computer Science}{University of Trento}{Trento, Italy}{
+        \\
         Main subjects: Algorithms, Software Engineering \\ 
         Grade: 110/110 with honours}
-        
-        \vspace*{0.21cm}
-            
-        \MySection{sep 2014-\\jul 2017}{}{HS Computer Science}{ITT Marconi Rovereto}{Rovereto, Italy}{}{
-        \\ 
-        Main subjects: Programming, Network Systems\\ 
-        Grade: 100/100 with honours
-        }
 
-        %  \MySection{sep 2014-\\jul 2017}{}{High School Diploma}{ITT Marconi Rovereto Marconi}{Rovereto, Italia}{Computer Science\\}{\textbf{Grade: 100/100 with honours}}
+        \vspace*{0.21cm}
+
+        \MySectionNoPic{sep 2014-\\jul 2017}{HS Computer Science}{ITT Marconi Rovereto}{Rovereto, Italy}{
+        \\
+        Main subjects: Programming, Network Systems\\ 
+        Grade: 100/100 with honours}
         
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % Work Experience
@@ -179,56 +145,38 @@
         \vspace*{0.18cm}
 
         \MySection{dec 2023-\\ ongoing }{agile_robots.png}{Software Engineer for Robotics}{\href{https://www.agile-robots.com/en/}{Agile Robots AG}}{Munich, Germany}{
-        % Safety-critical teleoperation, Shared Autonomy\\
-        }{I'm working in the R&D department on AgileCore, the company software platform facilitating the development and deployment of automation solutions.}
-        
+        }{I'm working in the R\&D department on AgileCore, the company software platform facilitating the development and deployment of automation solutions.}
+
         \vspace*{0.18cm}
 
         \MySection{jan 2023-\\ jul 2023 }{ericsson.png}{Research Intern}{\href{https://www.ericsson.com/en}{Ericsson}}{Stockholm, Sweden}{
-        % Safety-critical teleoperation, Shared Autonomy\\
-        }{I joined the team to develop the research project for my master's degree. The result is a control algorithm for teleoperation aware of physical obstacles and network delays; the approach can be found in the publication at the \href{https://arxiv.org/pdf/2403.18650}{link}.\\
-        
-        Project title: Safety-Critical Teleoperation with Time-Varying Delays. MPC-CBF-based approaches for obstacle avoidance.
-        }
+        }{I joined the research team to develop the research project for my master's degree. The result is a control algorithm for teleoperation aware of physical obstacles and network delays; more details can be found in the publication at the \href{https://arxiv.org/pdf/2403.18650}{link}.}
             
         \vspace*{0.18cm}
         
         \MySection{jan 2021-\\sep 2021}{polytec.jpg}{Software Engineer}{\href{https://polytec.bmgroup.com/}{BM Group Polytec S.p.A.}}{Borgo Chiese, Italy}{
-        % Software engineering and manufacturing\\
-        }{
-        Development of cloud solutions for industrial plants. 
-        Video to the main project I worked on \href{https://youtu.be/XaXRUYPYLRw}{link}.
-        } 
+        }{Development of cloud solutions for industrial plants. Video to the main project I worked on \href{https://youtu.be/XaXRUYPYLRw}{link}.}
             
         \vspace*{0.18cm}
         
-        % \MySection{nov 2020-\\dec 2020}{}{Data Engineer}{Capgemini}{Milan, Italy}{}{Think fast: this was not my job} 
-        % \vspace*{0.18cm}
-          
-        \MySection{oct 2019-\\feb 2020}{}{Computer Science Intern}{\href{https://www.spaziodati.eu/}{SpazioDati S.r.l.}}{Trento, Italy}{
-        % Programming, data science
-        }{I joined the company as an intern and finally developed there my bachelor's degree. The main focus was to interface with the company's APIs and access their datasets to develop a web application.} 
-
-         % \MySection{oct 2019-\\feb 2020}{}{Computer Science Intern}{SpazioDati S.r.l.}{Trento, Italy}{Programming, data science\\}{Bachelor's degree thesis project focusing on company APIs and large datasets.} 
+        \MySection{oct 2019-\\feb 2020}{spaziodati.jpg}{Computer Science Intern}{\href{https://www.spaziodati.eu/}{SpazioDati S.r.l.}}{Trento, Italy}{
+        }{I joined the company as an intern and developed my bachelor's degree project there. The main focus was to interface with the company's APIs and use their datasets in a web application.} 
         
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % Information Technology Skills
         % (main one for saving space)
-        \section*{{\faDesktop} (MAIN) “TOOLS” }
+        \section*{{\faDesktop} TOOLS \& FRAMEWORK }
         \vspace*{-0.5cm}
         \begin{multicols}{2}    
         \begin{itemize}
         \footnotesize
-            \item \textbf{ROS 2}: advanced
-            \item \textbf{Django}: advanced
             \item \textbf{.NET}: advanced
-            \item \textbf{SQL \& Databases}: advanced
+            \item \textbf{Django}: advanced
             \item \textbf{gRPC}: intermediate
-            \item \textbf{PyTorch}: intermediate
-            \item \textbf{Unity}: intermediate
-            \item \textbf{Node.js}/React.js: intermediate    
-            \item \textbf{Node.js}/Vue.js: intermediate    
             \item \textbf{Linux \& git}: advanced
+            \item \textbf{Reach.js \& Vue.js}: intermediate    
+            \item \textbf{ROS 2}: advanced
+            \item \textbf{Unity}: intermediate
             \item[\vspace{\fill}]
         \end{itemize}
         \end{multicols}
@@ -252,7 +200,7 @@
         % \textbf{MapleSim}: \textit{beginner}\\
         % }
 
-        I live in a tourist area and have always done \textbf{seasonal jobs}. I do my best to complete what I commit to and, sometimes, I am even far too meticulous; this is why my scout \href{https://it.wikipedia.org/wiki/Totem_(nome_scout)}{totem} is \textit{Precise Hedgehog}. I love sports, particularly climbing, running, and snowboarding: I don't do them competitively, but I am honestly addicted to them!      
+         I live in a tourist area and have always done \textbf{seasonal jobs}. I do my best to complete what I commit to and, sometimes, I am even far too meticulous; this is why my scout \href{https://it.wikipedia.org/wiki/Totem_(nome_scout)}{totem} is \textit{Precise Hedgehog}. I love sports, particularly climbing, running, and snowboarding: I don't do them competitively, but I am honestly addicted to them!      
 
         \vspace*{0.18cm}
         Updated version of this document available at: \href{https://riccardoperiotto.github.io/CV_RiccardoPeriotto.pdf}{CV\_RiccardoPeriotto}. \\

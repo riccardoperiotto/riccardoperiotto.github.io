@@ -87,8 +87,7 @@
 {\Huge \color{#5} #2 \textbf{#3} }%
 };%
 \node[draw=none, below](description) at (name.south) {\color{white}#4};% 
-}\vspace{-1.2cm}
-% EDIT: it was -0.7cm
+}\vspace*{-0.7cm}
 }
 
 % Command Example:
@@ -128,7 +127,7 @@
     \hfill \vline \hfill
     \adjustbox{valign=t}{\begin{minipage}{8.5cm}
         {\normalsize\bfseries #3}
-        \hfill {\footnotesize \faMapMarker  ~ #5}
+        \hfill {\footnotesize {\normalfont\faMapMarker}  ~ #5}
         \newline
         {\small #4}
         \newline 
@@ -137,7 +136,7 @@
     \end{minipage}}
 }
 
-\newcommand{\MySectionNoPic}[5]{ % input: years, logo, title, university, city, specialization, description
+\newcommand{\MySectionNoPic}[5]{ % input: years, title, university, city, description
     \adjustbox{valign=t}{\begin{minipage}{2cm}
     \begin{center}
         {\small \bfseries #1} \\
@@ -147,7 +146,7 @@
     \hfill \vline \hfill
     \adjustbox{valign=t}{\begin{minipage}{8.5cm}
         {\normalsize \bfseries #2}
-        \hfill {\footnotesize\faMapMarker  ~ #3}
+        \hfill {\footnotesize{\normalfont\faMapMarker} ~ #3}
         \newline
         %{\small \bfseries #3} \\
         \small {\emph{#4}} \\

@@ -1,2 +1,11 @@
-CV_RiccardoPeriotto.pdf
-README.md
+*.aux
+*.bbl
+*.blg 
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot 
+*.out
+*.synctex.gz
+*.xdv
