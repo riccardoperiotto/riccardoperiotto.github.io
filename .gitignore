@@ -1,11 +1,6 @@
 *.aux
-*.bbl
-*.blg 
+*.log
+*.out
 *.fdb_latexmk
 *.fls
-*.lof
-*.log
-*.lot 
-*.out
 *.synctex.gz
-*.xdv

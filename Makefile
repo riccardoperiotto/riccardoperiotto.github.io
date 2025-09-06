@@ -1,4 +1,4 @@
-TEXFILE=main
+TEXFILE=CV_RiccardoPeriotto
 OUTNAME=CV_RiccardoPeriotto
 
 all:
